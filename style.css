@@ -1,0 +1,16 @@
+body {
+  background-color: beige;
+  font-family: 'poppins', 'sans-serif';
+}
+.navbar-nav li a {
+  color: black;
+  margin-right: 40px;
+}
+.c-item {
+  height: 480px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
