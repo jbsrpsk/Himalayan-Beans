@@ -15,10 +15,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-sm bg-body-tertiary mainNav"
-      style="background-color: beige !important"
-    >
+    <nav class="navbar navbar-expand-sm bg-body-tertiary  mainNav" style="background-color: beige !important">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img
@@ -47,7 +44,7 @@
               <a class="nav-link" href="#">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
+              <a class="nav-link" href="#" id="aboutLink">About us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/login.html">Login</a>
@@ -145,85 +142,132 @@
     </div>
 
     <div class="about-us-section">
-      <div class="image-container">
-        <img src="/pics/img4.jpeg" alt="About Us Image" />
-      </div>
-      <div class="text-container">
-        <h2>Empowering the Nation</h2>
-        <p>
-          Himalayan Beans is dedicated to empowering Nepali youth by providing
-          opportunities for growth and development. Through our initiatives, we
-          aim to nurture the talents and aspirations of young individuals in
-          Nepal, fostering a culture of innovation, entrepreneurship, and
-          community engagement. Together, we cultivate a future where Nepali
-          youth thrive, making meaningful contributions to their communities and
-          shaping a brighter tomorrow.
-        </p>
-      </div>
+        <div class="image-container">
+          <img src="/pics/img4.jpeg" alt="About Us Image" />
+        </div>
+        <div class="text-container">
+          <h2>Empowering the Nation</h2>
+          <p>
+            Himalayan Beans is dedicated to empowering Nepali youth by providing
+            opportunities for growth and development. Through our initiatives, we
+            aim to nurture the talents and aspirations of young individuals in
+            Nepal, fostering a culture of innovation, entrepreneurship, and
+            community engagement. Together, we cultivate a future where Nepali
+            youth thrive, making meaningful contributions to their communities and
+            shaping a brighter tomorrow.
+          </p>
+        </div>
     </div>
-    <div class="about-us-section">
-      <div class="text-container">
-        <h2 margin-bottom: 10px !important">
-          Educating
-        </h2>
-        <p 
-        >
-          At Himalayan Beans, we believe in the transformative power of
-          education. Through our educational initiatives, we aim to ignite
-          curiosity, inspire lifelong learning, and unlock the full potential of
-          individuals in Nepal. We provide access to quality education,
-          innovative learning resources, and mentorship opportunities,
-          empowering students to pursue their dreams and build a brighter future
-          for themselves and their communities.
-        </p>
-      </div>
-      <div class="image-container">
-        <img src="/pics/img5.jpg" alt="About Us Image" style="border-radius: 0 30px 30px 0;"/>
-      </div>
+     <div class="about-us-section">
+        <div class="text-container">
+          <h2>
+            Educating
+          </h2>
+          <p 
+          >
+            At Himalayan Beans, we believe in the transformative power of
+            education. Through our educational initiatives, we aim to ignite
+            curiosity, inspire lifelong learning, and unlock the full potential of
+            individuals in Nepal. We provide access to quality education,
+            innovative learning resources, and mentorship opportunities,
+            empowering students to pursue their dreams and build a brighter future
+            for themselves and their communities.
+          </p>
+        </div>
+        <div class="image-container">
+          <img src="/pics/img5.jpg" alt="About Us Image" style="border-radius: 0 30px 30px 0;"/>
+        </div>
     </div>
 
-<div class="videoSection">
-    <iframe width="100%"  src="https://www.youtube.com/embed/3Y6_q2MF90g" title="Coffee farming in Nepal. (Fall and Rise of a plantation (Documentary)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-    <footer class="text-center text-white" style="width: 60%;margin: auto ;border-top: 2px dotted brown;">
-    <div class="container pt-4">
-      <section class="mb-4">
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-x-twitter"></i
-        ></a>
+    <footer class="footer bg-dark">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-border-bottom pb-6 mb-5">
+                    <div class="row"  style="align-items: center">
+                        <div class="col-lg-6 col-xl-4">
+                            <h4 class="text-white">
+                                Sign up to Get Latest Updates
+                            </h4>
+                        </div>
+                        <div class="col-lg-6 col-xl-6">
+                            <form class="d-flex flex-row mb-2 p-1 bg-white input-group" >
+                                <input type="email" class="form-control rounded-0 border-0" placeholder="you@yoursite.com">
+                                <button class="btn btn-secondary rounded-0 flex-shrink-0" type="submit">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3 my-4">
+                        <div class="mb-4">
+                            <img src="static/img/logo-light.svg" title="" alt="">
+                        </div>
+                        <img src="/pics/logo.png" alt="" style="width: 100%;">
+                        <div class="nav footer-socila-icon" style="width: 100%;margin:auto; margin-left: 20px;">
+                            <a href="#"> <i class="fab fa-facebook-f icons"></i></a>
+                            <a href="#">  <i class="fab fa-twitter icons"></i> </a>
+                            <a href="#"> <i class="fab fa-instagram icons"></i> </a>
+                            <a href="#"> <i class="fab fa-linkedin-in icons"></i>  </a>                    </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-2 my-4">
+                        <h5 class="text-white h6 mb-4">Customer</h5>
+                        <ul class="list-unstyled white-link footer-links">
+                            <li>
+                                <a href="#">Franchising</a>
+                            </li>
+                            <li>
+                                <a href="#">Reviews</a>
+                            </li>
+                            <li>
+                                <a href="#">Help center</a>
+                            </li>
+                            <li>
+                                <a href="#">Pricing</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+            
+                    <div class="col-sm-6 col-lg-2 my-4">
+                        <h5 class="text-white h6 mb-4">Company</h5>
+                        <ul class="list-unstyled white-link footer-links">
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Careers</a>
+                            </li>
+                            <li>
+                                <a href="#">Legal &amp; Security</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms of use</a>
+                            </li>
+                            <li>
+                                <a href="#">We're hiring!</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-2 my-4">
+                        <h5 class="text-white h6 mb-4">Documentary</h5>
+                        <iframe src="https://www.youtube.com/embed/3Y6_q2MF90g" title="Coffee farming in Nepal. (Fall and Rise of a plantation (Documentary)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    
+                    </div>
   
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-google"></i
-        ></a>
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-instagram"></i
-        ></a>
-      </section>
-    </div>
-  </footer>
-    
-  </div>
-    
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom footer-border-top light py-3">
+            <div class="container text-center">
+                <p class="m-0" style="color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">© 2024 copyright <a href="#" class="text-reset text-white">Himalayan Beans</a></p>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
