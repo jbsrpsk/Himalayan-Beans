@@ -68,7 +68,6 @@ body {
 
 .text-container {
   flex: 1;
-
 }
 .text-container h2,
 .text-container p {
@@ -82,7 +81,7 @@ body {
   margin-bottom: 10px;
   font-weight: bold;
 }
-.text-container p{
+.text-container p {
   font-size: 0.9vw;
 }
 #aboutMain {
@@ -102,4 +101,13 @@ body {
   width: 100%;
   text-align: center;
   font-size: 1vw;
+}
+.videoSection{
+  width: 60%;
+  height: 50dvh;
+  margin: 50px auto;
+
+}
+.videoSection iframe{
+  height: 100%;
 }
